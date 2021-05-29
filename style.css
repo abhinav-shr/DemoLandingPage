@@ -39,9 +39,9 @@ aside.navigation {
     flex-direction: column;
     width: 20vh;
     clear: both;
-    height: 90vh;
+    height: 100%;
     padding-top: 50px;
-    padding-right: 20vw;
+    padding-right: 15vw;
 }
 nav a{
 
@@ -68,7 +68,7 @@ a.about{
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 70px;
+    top: 82vh;
 }
 button#cart{
     color: rgb(221, 220, 220);
@@ -151,6 +151,9 @@ img{
 }
 
 @media screen and (min-width:450px) {
+        body{
+            min-width: 700px;
+        }
         button.navbutton{
             display: none;
         }
